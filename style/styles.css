@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(195, 195, 195);
+    background: linear-gradient(90deg, rgba(195,195,195,1) 0%, rgba(249,249,249,1) 18%, rgba(255,255,255,1) 62%, rgba(195,195,195,1) 99%);
+    margin-top: auto;
+
+}
+ul {
+    background-color: #c3c3c3;
+    overflow: hidden;
+    list-style-type: none;
+    top:0;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    display: block;
+    height: 12%;
+}
+
+li {
+    float: left;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 0px 46px;
+    font-size: 20px;
+}
+.logo {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: left;
+    display: block;
+}
+header {
+    height: 50vw;
+    background-image: url("../img/Planoy.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    display: block;
+    
+}
+.row {
+    float: right;
+    width: 950px;
+    margin: 0 auto;
+    padding: 110px;
+}
+.image-container {
+    margin: 50px;
+    padding: 10px;
+    align-items: center;
+}
+
+.img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.open {
+    line-height: 1.6;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 20;
+    padding: 20;
+}
+.sec1 {
+    background-color: rgba(117,114,114,0.397);
+    width: 600px;
+    margin-left: 380px;
+    margin-right: 600px;
+    margin-top: auto;
+    display: block;
+}
+h4 {
+    margin: 80px;
+    text-align: center;
+}
+h5 {
+    margin: 80px;
+    text-align: center;
+}
+/*intro headers  */
+
+.kn {
+    color: #38b6ff;
+    padding: 100px;
+}
+.about {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 30px;
+}
+.form {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin: 10px;
+}
+.App {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 30px;
+}
+.srch {
+    background-color: whitesmoke;
+    margin-top: 80px;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+}
+.sel {
+    text-align: center;
+    margin-top: 60px;
+    font-size: larger;
+}
+input[type="radio"] {
+    margin-right: 15px;
+}
+
+
