@@ -9,7 +9,7 @@ ul {
     list-style-type: none;
     padding: 20px;
     display: block;
-    height: 12%;
+    height: 8%;
     top: 0;
 
 }
@@ -28,9 +28,15 @@ li a {
     color: black;
     text-align: center;
     padding: 0px 46px;
-    font-size: 20px;
-    
+    font-size: 20px;    
 
+}
+.logo {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: left;
+    display: block;
 }
 .carousel-item {
     height: 400px;
@@ -66,35 +72,49 @@ li a {
 /* Container Grid */
 
 .container {
+    border-radius: 8px;
+    border: darkblue;
+    border-style: solid;
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    grid-gap: 10px;
+    grid-gap: 15px;
     grid-template-areas: 
-    "video   photo2" 
-    "photo3      photo4"
+    "video   " 
+    "photo2    photo3      photo4"
    
 }
 
 
 .video {
     object-fit: cover;
-    width: 400px;
-    height: 240px;
-    grid-area: video;
+    width: 100%;
+    height: 100%;
+   
 }
 .photo2>img {
     object-fit: cover;
-    width:300px;
+    width:350px;
 }
 .photo3>img {
     object-fit: cover;
-    Width: 300px;
+    Width: 500px;
    
 }
 .photo4>img {
     object-fit: cover;
-    Width: 300px;
+    Width: 450px;
+}
+
+/* Info Section */
+
+.info {
+    display: block;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 70%;
+    height:45%
 }
 
 /* Contact HTML */
