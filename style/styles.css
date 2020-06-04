@@ -135,8 +135,12 @@ input[type="radio"] {
 p {
     margin-left: 45px;
     margin-right: 45px;
+    line-height: 35px;
 }
 .mission {
     color: #38b6ff;
      
+}
+.Lyar {
+    text-align: center;
 }
