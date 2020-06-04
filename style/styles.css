@@ -14,7 +14,7 @@ ul {
     position: fixed;
     width: 100%;
     display: block;
-    height: 12%;
+    height: 15%;
 }
 li img {
     margin-bottom: 20%;
@@ -42,7 +42,7 @@ li a {
 }
 header {
     height: 50vw;
-    background-image: url("../img/Planoy.jpg");
+    background-image: url("../img/yarcover.JPG");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -95,7 +95,7 @@ h5 {
     margin: 80px;
     text-align: center;
 }
-/*intro headers  */
+
 
 .kn {
     color: #006ccf;
@@ -136,7 +136,6 @@ p {
     margin-left: 45px;
     margin-right: 45px;
 }
-/* Contact Page */
 .mission {
     color: #38b6ff;
      
