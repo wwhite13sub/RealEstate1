@@ -16,13 +16,19 @@ ul {
     display: block;
     height: 12%;
 }
+li img {
+    margin-bottom: 20%;
+    width:100px; 
+    height:55px;
+}
 
 li {
     float: left;
+    
 }
 li a {
-    display: inline-block;
-    color: white;
+    
+    color: black;
     text-align: center;
     padding: 0px 46px;
     font-size: 20px;
@@ -92,26 +98,26 @@ h5 {
 /*intro headers  */
 
 .kn {
-    color: #38b6ff;
+    color: #006ccf;
     padding: 100px;
 }
 .about {
-    background-color: whitesmoke;
+    background-color: #bbb9b9;
     padding: 20px;
     margin: 30px;
 }
 .form {
-    background-color: whitesmoke;
+    background-color: #bbb9b9;
     padding: 10px;
     margin: 10px;
 }
 .App {
-    background-color: whitesmoke;
+    background-color: #bbb9b9;
     padding: 20px;
     margin: 30px;
 }
 .srch {
-    background-color: whitesmoke;
+    background-color: #bbb9b9;
     margin-top: 80px;
     text-align: center;
     padding: 20px;
@@ -126,4 +132,12 @@ input[type="radio"] {
     margin-right: 15px;
 }
 
-
+p {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+/* Contact Page */
+.mission {
+    color: #38b6ff;
+     
+}
