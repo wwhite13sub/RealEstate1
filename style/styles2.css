@@ -1,0 +1,170 @@
+body {
+    background: rgb(195, 195, 195);
+    background: linear-gradient(90deg, rgba(195,195,195,1) 0%, rgba(249,249,249,1) 18%, rgba(255,255,255,1) 62%, rgba(195,195,195,1) 99%);
+}
+
+ul {
+    background-color: #c3c3c3;
+    overflow: hidden;
+    list-style-type: none;
+    padding: 20px;
+    display: block;
+    height: 12%;
+    top: 0;
+
+}
+li img {
+    margin-bottom: 20%;
+    width:100px; 
+    height:55px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    
+    color: black;
+    text-align: center;
+    padding: 0px 46px;
+    font-size: 20px;
+    
+
+}
+.carousel-item {
+    height: 400px;
+    position: relative;
+    z-index: 9%;
+    top: 0;
+    right: 40px;
+
+    
+}
+.carousel img {
+    border-radius: 3%;
+    width: 694px;
+    height: 359px;
+    border-color: rgb(195, 195, 195); 
+    border-width: 3px; 
+    border-style: solid;
+    margin-left: 25%;
+    margin-top: 3%;
+
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-size: 100% 100%;
+    border: solid black;
+    outline: black;
+    background-image: none;
+}
+.sr-only {
+    color: black;
+    border-style: solid;
+}
+
+/* Container Grid */
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    grid-template-areas: 
+    "video   photo2" 
+    "photo3      photo4"
+   
+}
+
+
+.video {
+    object-fit: cover;
+    width: 400px;
+    height: 240px;
+    grid-area: video;
+}
+.photo2>img {
+    object-fit: cover;
+    width:300px;
+}
+.photo3>img {
+    object-fit: cover;
+    Width: 300px;
+   
+}
+.photo4>img {
+    object-fit: cover;
+    Width: 300px;
+}
+
+/* Contact HTML */
+
+input[type=text],
+textarea {
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    width: 80%;  
+}
+
+    
+input[type=submit] {
+    cursor: pointer;    
+    
+}
+
+button[type=submit]:hover {
+    background-color: #38b6ff;
+}
+
+
+form {
+    background-color: gray;
+    border-radius: 10px;
+    padding: 80px;
+    width: 45%;    
+    margin: 10% 30%;
+    
+}
+
+
+input[type=message] {
+    margin: 10px;
+    width: 100%;    
+    padding: 15px 25px;
+    margin-left: 85px;
+}
+input[type=email] {
+    width: 80%;
+    padding: 10px 25px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border-radius: 3%;
+}
+
+button:hover{
+    background-color: red;
+}
+
+.info {
+    text-align: center;
+    margin-top: 7%;
+    display: block;
+  
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cnt {
+    text-align: center;
+    margin-top: 3%;
+}
+.mission {
+    text-align: center;
+    color: #006ccf
+}
+h1 {
+    text-align: center;
+    margin-top: 30%;
+}
