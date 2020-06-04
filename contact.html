@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="style/styles.css" type="text/css">
+    <link rel="stylesheet" href="style/styles2.css" type="text/css">
     <link a href="index.html">
     <script type="text/javascript" src="js/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -16,8 +16,50 @@
 
 
 <body>
+    <header> 
+        <div>
+            <ul>
+                <li></li><a href="index.html">
+                    <img src="LogoFold/yppl.png" alt="Yarbrough Logo" width="280px" height="200px">
+                </a><li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html#App">Application Process</a></li>
+                <li><a href="index.html#About">About Us</a></li>
+                <li><a href="index.html#Home">Home</a></li>
+            </ul>
+        </div>
     <h1 class="info">Contact Us</h1>
-    <p class="cnt">If you have have any questions, feel free to call or text<a href="index.html#App">us</a> and we will return a response within a few hours</p>
-<form id="frm" name="contact-form"
+    <p class="cnt">If you have have any questions, feel free to call or text<a href="index.html#App"> us</a> and we will return a response within a few hours. Please fill out form below. </p>
+    </header>
+<div class="formbase">
+<form action="https://formspree.io/xyynwpgb" method="post">
+            <label for="first">First Name</label>
+            <input type="text" name="name" id="full-name" placeholder="Enter Here" required="">
+        
+            <label for="last">Last Name</label>
+            <input type="text" name="name" id="full-name" placeholder="Enter Here" required="">
+        
+        
+            <label for="email-address">Email Address</label>
+            <input type="email" name="_replyto" id="email-address" placeholder="email@email.com" required="">
+        
+            <label for="message">Reason Needing to Lease</label>
+            <textarea type="message" rows="2" cols="30" name="message" id="message" placeholder="Type Here." required="" ></textarea>
+            <br>
+            <br>
+            <button type="submit" value="submit">Submit</button>
+            
+            <button onclick="cancelHome()">Cancel</button>
+        
+</form>
+</div>
+
+
+    <div class="mission">
+        <h1><b>"We specialize in updated, meticulously maintained properties and provide outstanding support to tentants"</b></h1>
+        <br>
+        <br>
+    </div>
+</section>
 </body>
 </html>
