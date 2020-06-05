@@ -7,16 +7,17 @@ ul {
     background-color: #c3c3c3;
     overflow: hidden;
     list-style-type: none;
-    padding: 20px;
+    top:0;
+    padding: 5px;
+    width: 100%;
     display: block;
-    height: 8%;
-    top: 0;
-
+    height: 5%;
 }
+
 li img {
-    margin-bottom: 20%;
-    width:100px; 
-    height:55px;
+    margin-bottom: 10%;
+    width:130px; 
+    height:65px;
 }
 
 li {
@@ -27,9 +28,8 @@ li a {
     
     color: black;
     text-align: center;
-    padding: 0px 46px;
-    font-size: 20px;    
-
+    padding: 20px 35px;
+    font-size: 20px;
 }
 .logo {
     margin-top: 50px;
@@ -44,9 +44,9 @@ li a {
     z-index: 9%;
     top: 0;
     right: 40px;
-
     
 }
+
 .carousel img {
     border-radius: 3%;
     width: 694px;
@@ -58,6 +58,7 @@ li a {
     margin-top: 3%;
 
 }
+
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-size: 100% 100%;
     border: solid black;
@@ -69,55 +70,81 @@ li a {
     border-style: solid;
 }
 
-/* Container Grid */
 
-.container {
-    border-radius: 8px;
-    border: darkblue;
-    border-style: solid;
+
+.grid-container {    
+    border-radius: 10px;
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-gap: 15px;
-    grid-template-areas: 
-    "video   " 
-    "photo2    photo3      photo4"
-   
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 0;
+    background-color: darkgray; 
+     
+    
 }
 
 
 .video {
+    display: grid;   
     object-fit: cover;
-    width: 100%;
-    height: 100%;
+    width: 39vw;
+    height: 80vw;
+    margin-left: 15%;
+    margin-top: 5%; 
    
 }
+
 .photo2>img {
+    display: grid;
     object-fit: cover;
-    width:350px;
+    width:39vw;
+    height: 26vw;
+    margin-top: 13%;
+    margin-right: 10%;   
 }
+
 .photo3>img {
+    display: grid;   
     object-fit: cover;
-    Width: 500px;
-   
+    Width: 39vw;
+    height:21vw;
+    margin-left: 10%;
+    margin-top: -40%;
+       
 }
+
 .photo4>img {
+    display: grid;    
     object-fit: cover;
-    Width: 450px;
+    Width: 39vw;
+    height:20vw;
+    margin-top: -40%;
+
 }
 
-/* Info Section */
 
-.info {
-    display: block;
-    background-color: cornflowerblue;
+.grid-container[class="info"] {
+    border-style: solid;
+    background-color: ivory;
     border-radius: 5px;
     font-weight: bold;
-    width: 70%;
-    height:45%
+    width: 80%;
+    height:20%;
+    margin-top: 3%;
+    text-align: justify;
+    float: left;
+    line-height: 4px;
+
+}
+.info {
+    font-weight: bold;
 }
 
-/* Contact HTML */
+.info1 {
+    margin-left: 10%;
+    font-weight: bold;
+}
+
 
 input[type=text],
 textarea {
@@ -136,7 +163,7 @@ input[type=submit] {
 }
 
 button[type=submit]:hover {
-    background-color: #38b6ff;
+    background-color: green;
 }
 
 
@@ -156,6 +183,7 @@ input[type=message] {
     padding: 15px 25px;
     margin-left: 85px;
 }
+
 input[type=email] {
     width: 80%;
     padding: 10px 25px;
@@ -168,23 +196,32 @@ button:hover{
     background-color: red;
 }
 
-.info {
-    text-align: center;
-    margin-top: 7%;
-    display: block;
-  
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.cnt {
-    text-align: center;
-    margin-top: 3%;
-}
+
 .mission {
     text-align: center;
-    color: #006ccf
+    color: #006ccf;
 }
+
 h1 {
     text-align: center;
     margin-top: 30%;
 }
+
+
+.condoprop {
+    text-align: center;
+    border-style: solid;
+    border-color: lightgray;
+    border-radius: 3px;
+    background-color: darkgray;
+    font-weight: bold;
+    line-height: 8px;
+    padding: 10px;
+}
+
+form>label {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
