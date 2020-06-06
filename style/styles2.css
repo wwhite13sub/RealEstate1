@@ -16,7 +16,7 @@ ul {
 
 li img {
     margin-bottom: 10%;
-    width:130px; 
+    width:80px; 
     height:65px;
 }
 
@@ -34,7 +34,7 @@ li a {
 .logo {
     margin-top: 50px;
     margin-bottom: 10px;
-    padding: 15px;
+    padding: 10px;
     text-align: left;
     display: block;
 }
@@ -49,13 +49,13 @@ li a {
 
 .carousel img {
     border-radius: 3%;
-    width: 694px;
-    height: 359px;
+    width: 55vw;
+    height: 35vw;
     border-color: rgb(195, 195, 195); 
     border-width: 3px; 
     border-style: solid;
-    margin-left: 25%;
-    margin-top: 3%;
+    margin-left: 28%;
+    margin-top: 1%;
 
 }
 
@@ -152,8 +152,8 @@ textarea {
     text-align: center;
     border-radius: 5px;
     box-sizing: border-box;
-    margin: 10px 0;
-    width: 80%;  
+    margin: 12px 0;
+    width: 30vw;  
 }
 
     
@@ -171,7 +171,7 @@ form {
     background-color: gray;
     border-radius: 10px;
     padding: 80px;
-    width: 45%;    
+    width: 52vw;    
     margin: 10% 30%;
     
 }
@@ -179,13 +179,13 @@ form {
 
 input[type=message] {
     margin: 10px;
-    width: 100%;    
+    width: 30vw;    
     padding: 15px 25px;
     margin-left: 85px;
 }
 
 input[type=email] {
-    width: 80%;
+    width: 30vw;
     padding: 10px 25px;
     margin: 15px 0;
     box-sizing: border-box;
@@ -220,7 +220,7 @@ h1 {
 }
 
 form>label {
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
 }
 
