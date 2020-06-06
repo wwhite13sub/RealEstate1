@@ -1,5 +1,5 @@
-function showAlert() {
-    var myTxt="Reminder: Please complete form and submit"
-    alert(myTxt);
-           
+function myFunction() {
+    var x = document.getElementById("firstNumber").value;
+    x = x * 50;    
+    document.getElementById("result").innerHTML = x;           
 }
