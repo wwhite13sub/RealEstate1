@@ -1,6 +1,5 @@
-function cancelHome() {
-    var txt;
-    if (confirm("Are you sure you would like to Exit? Changes may not be saved.")) {
-        window.location = "index.html"
-    }
+function showAlert() {
+    var myTxt="Reminder: Please complete form and submit"
+    alert(myTxt);
+           
 }
