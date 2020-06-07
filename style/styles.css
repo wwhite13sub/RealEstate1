@@ -166,5 +166,8 @@ p {
     background-color: gray;
     padding: 3vw;
     text-align: center;
-    border-radius: 3%;
+    border-radius: 7%;
+}
+.appcst>button {
+    margin-top: 1%;
 }
