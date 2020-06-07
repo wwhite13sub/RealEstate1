@@ -16,8 +16,8 @@ ul {
 
 li img {
     margin-bottom: 10%;
-    width:80px; 
-    height:65px;
+    width:89px; 
+    height:60px;
 }
 
 li {
@@ -28,7 +28,7 @@ li a {
     
     color: black;
     text-align: center;
-    padding: 20px 35px;
+    padding: 20px 23px;
     font-size: 20px;
 }
 .logo {
@@ -91,6 +91,7 @@ li a {
     height: 80vw;
     margin-left: 15%;
     margin-top: 5%; 
+    
    
 }
 
