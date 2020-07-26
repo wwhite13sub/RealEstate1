@@ -99,7 +99,8 @@ h5 {
 
 .kn {
     color:#006ccf;
-    padding: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .about {
     background-color: #bbb9b9;
