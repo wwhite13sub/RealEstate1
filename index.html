@@ -9,19 +9,27 @@
 </head>
 
 <body id="Home">
-    <header></header>
-    <div>
-        <ul>
-            <li><img src="LogoFold/yppl.png" alt="Yarbrough Logo" >
-            </li>
-            <li><a href="#srch">Find a Property</a></li>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About Us</a></li>
-            <li><a href="#App">Application Process</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+    <header>
+    <div id="Top">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="LogoFold/yppl.png" alt="Yarbrough Logo" style="width:150px;"></a>
+            
+        <ul class="navbar-nav">
+            <li class="nav-item"> 
+                <a class="nav-link" style="color: white;" href="#srch">Find a Property</a></li>
+            <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="#Home">Home</a></li>
+            <li class="nav-item"> 
+                <a class="nav-link" style="color: white;" href="#About">About Us</a></li>
+            <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="#App">Application Process</a></li>
+            <li class="nav-item">
+                <a class="nav-link" style="color: white;" href="contact.html">Contact Us</a></li>
         </ul>
+        </nav>
     </div>
-    
+    </header>
     
     <div id="srch">
         <h4 class="srch">Find a Property </h4>
@@ -63,20 +71,24 @@
             
             <div class="appcst">
                 <br>
-                Enter Number of Applicants: <input type="text" id="firstNumber" value="" >
+                <span class="numapp">Enter Number of Applicants: <input type="text" id="firstNumber" value="" ></span>
                 <br>
                 <br>
-                <span>Application Fee: $50</span>
+                <span class="numapp">Application Fee: <input type="" value="50" readonly></span>
                 <br>
-                <button onclick="myFunction()">Calculate Total Application Cost</button>
+                <button class="btn-primary mt-5" onclick="myFunction()">Calculate Total Application Cost</button>
                 <br>
                 <br>
-                Total Application Cost:<p id="result"></p>
+                <p class="numapp" >Total Application Cost: <p id="result"></p></p>
             </div>
             
             <br><br><br>
         </div>
     </section>
+
+    <div class="reset">
+    <a href="#Top">Back To Top</a>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
