@@ -6,15 +6,14 @@ body {
 
 }
 ul {
-    background-color: #c3c3c3;
+    
     overflow: hidden;
     list-style-type: none;
     top:0;
-    padding: 10px;
-    position: fixed;
+    padding: 5px;
     width: 100%;
     display: block;
-    height: 17%;
+    height: 5%;
 }
 li img {
     margin-bottom: 10%;
@@ -41,13 +40,13 @@ li a {
     display: block;
 }
 header {
-    height: 50vw;
+    height: 65vw;
     background-image: url("../img/yarcover.JPG");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 100vw;
+    background-size: 100%;
     display: block;
     
 }
@@ -120,7 +119,7 @@ h5 {
 }
 .srch {
     background-color: #bbb9b9;
-    margin-top: 80px;
+    margin-top: 90px;
     text-align: center;
     padding: 20px;
     margin: 50px;
@@ -171,4 +170,18 @@ p {
 }
 .appcst>button {
     margin-top: 1%;
+}
+
+.numapp {
+    font-size: medium;
+    font-weight: 500;
+}
+.reset {
+    margin-left: 50%;
+    margin-bottom: 8%;
+}
+
+#result {
+    font-size: larger;
+    font-weight: 700;
 }

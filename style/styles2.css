@@ -4,7 +4,7 @@ body {
 }
 
 ul {
-    background-color: #c3c3c3;
+    
     overflow: hidden;
     list-style-type: none;
     top:0;
@@ -24,7 +24,7 @@ li {
     float: left;
 }
 
-li a {
+li > a{
     
     color: black;
     text-align: center;
