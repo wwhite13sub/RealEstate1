@@ -38,6 +38,12 @@ li > a{
     text-align: left;
     display: block;
 }
+
+.condotitle {
+    padding: 3%;
+    margin-left: 28%;
+}
+
 .carousel-item {
     height: 400px;
     position: relative;
@@ -48,29 +54,37 @@ li > a{
 }
 
 .carousel img {
-    border-radius: 3%;
+    /* border-radius: 3%; */
     width: 55vw;
     height: 35vw;
     border-color: rgb(195, 195, 195); 
     border-width: 3px; 
     border-style: solid;
-    margin-left: 28%;
-    margin-top: 1%;
+    margin-left: 25%;
+    /* margin-top: 1%;  */
 
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     background-size: 100% 100%;
-    border: solid black;
-    outline: black;
+    /* border: solid black;
+    outline: black; */
     background-image: none;
+    
+}
+
+.carousel-inner {
+    padding: 3%;
 }
 .sr-only {
     color: black;
     border-style: solid;
 }
 
-
+.familytitle {
+    padding: 4%;
+    margin-left: 23%;
+}
 
 .grid-container {    
     border-radius: 10px;
@@ -78,34 +92,39 @@ li > a{
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
     row-gap: 0;
-    background-color: darkgray; 
-     
+    background-color: darkgray;    
     
 }
+
+/* .grid-container > div {
+    background-color: white;
+    display: grid;
+} */
 
 
 .video {
     display: grid;   
     object-fit: cover;
-    width: 39vw;
-    height: 70vw;
+    width:39vw;
+    height:70vw;
     margin-left: 15%;
     margin-top: 3%; 
-    
+
    
 }
 
 .photo2>img {
-    display: grid;
-    object-fit: cover;
-    width:39vw;
-    height: 26vw;
+    display:grid;
+    object-fit: cover; 
+    width:36vw;
+    height: 25vw;
     margin-top: 13%;
-    margin-right: 10%;   
+    margin-right: 10%;
+       
 }
 
 .photo3>img {
-    display: grid;   
+    display:grid;   
     object-fit: cover;
     Width: 39vw;
     height:21vw;
@@ -115,7 +134,7 @@ li > a{
 }
 
 .photo4>img {
-    display: grid;    
+    display:grid;    
     object-fit: cover;
     Width: 39vw;
     height:20vw;
@@ -126,12 +145,12 @@ li > a{
 
 .grid-container[class="info"] {
     border-style: solid;
-    background-color: ivory;
+    background-color: rgb(219, 204, 174);    
     border-radius: 5px;
     font-weight: bold;
     width: 80%;
     height:20%;
-    margin-top: 3%;
+    margin-top: 3%; 
     text-align: justify;
     float: left;
     line-height: 4px;
@@ -203,21 +222,21 @@ button:hover{
     color: #006ccf;
 }
 
-h1 {
-    text-align: center;
-    margin-top: 30%;
-}
 
+.lead {
+    margin-top: 3%;
+    color:#006ccf;
+}
 
 .condoprop {
     text-align: center;
     border-style: solid;
     border-color: lightgray;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: darkgray;
     font-weight: bold;
     line-height: 8px;
-    padding: 10px;
+    padding: 7px;
 }
 
 form>label {
@@ -225,4 +244,12 @@ form>label {
     font-weight: bold;
 }
 
+.carousel-indicators {
+    background: transparent;
+    
+}
+
+#propSlide {
+    background-color: rgb(128, 127, 127);
+}
 
