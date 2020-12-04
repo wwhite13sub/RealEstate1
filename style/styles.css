@@ -5,6 +5,16 @@ body {
     margin-top: auto;
 
 }
+
+.navbar-custom {
+    background-color: rgb(185, 204, 139);
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: yellow;
+}
+
 ul {
     
     overflow: hidden;
