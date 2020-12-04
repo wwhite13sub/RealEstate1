@@ -3,6 +3,10 @@ body {
     background: linear-gradient(90deg, rgba(195,195,195,1) 0%, rgba(249,249,249,1) 18%, rgba(255,255,255,1) 62%, rgba(195,195,195,1) 99%);
 }
 
+.navbar-custom {
+    background-color: rgb(185, 204, 139);
+}
+
 ul {
     
     overflow: hidden;
