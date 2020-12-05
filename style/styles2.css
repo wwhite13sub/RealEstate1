@@ -90,7 +90,61 @@ li > a{
     margin-left: 23%;
 }
 
-.grid-container {    
+
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/*padding between each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/*equal columns */
+.column {
+    float: left;
+    width: 25%;
+}
+ /* clear floats after rows */
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ .content {
+     background-color:rgb(201, 196, 196);
+     padding: 10px;
+ }
+
+/* Responsive layout- makes two columns */
+@media screen and (max-width:900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* .grid-container {    
     border-radius: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -98,7 +152,7 @@ li > a{
     row-gap: 0;
     background-color: darkgray;    
     
-}
+} */
 
 /* .grid-container > div {
     background-color: white;
@@ -106,66 +160,67 @@ li > a{
 } */
 
 
-.video {
+.photo1>img {
     display: grid;   
     object-fit: cover;
-    width:39vw;
-    height:70vw;
+    width:40%;
+    height:30%;
     margin-left: 15%;
-    margin-top: 3%; 
+
 
    
 }
 
 .photo2>img {
-    display:grid;
-    object-fit: cover; 
-    width:36vw;
-    height: 25vw;
-    margin-top: 13%;
-    margin-right: 10%;
+    
+    width:100%;
+    height:95%;
+    margin-left: -55%;
+    /* margin-top: -65%; */
+    
+    
        
 }
 
 .photo3>img {
     display:grid;   
     object-fit: cover;
-    Width: 39vw;
-    height:21vw;
+    Width: 30vw;
+    height:20vw;
     margin-left: 10%;
-    margin-top: -40%;
+    
        
 }
 
 .photo4>img {
     display:grid;    
     object-fit: cover;
-    Width: 39vw;
+    Width: 30vw;
     height:20vw;
-    margin-top: -40%;
+    
 
 }
 
 
-.grid-container[class="info"] {
+/* .grid-container[class="info2"] {
     border-style: solid;
     background-color: rgb(219, 204, 174);    
     border-radius: 5px;
     font-weight: bold;
     width: 80%;
-    height:20%;
-    margin-top: 3%; 
-    text-align: justify;
+    height:20%; 
     float: left;
-    line-height: 4px;
+    line-height: 2px; */
 
-}
-.info {
+
+
+.info1 {
+    margin-left: 25%;
     font-weight: bold;
 }
 
-.info1 {
-    margin-left: 10%;
+.info2 {
+    margin-left: 65%;
     font-weight: bold;
 }
 
