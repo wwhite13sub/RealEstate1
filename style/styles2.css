@@ -192,14 +192,14 @@ li > a{
        
 }
 
-.photo4>img {
+/* .photo4>img {
     display:grid;    
     object-fit: cover;
     Width: 30vw;
     height:20vw;
     
 
-}
+} */
 
 
 /* .grid-container[class="info2"] {
